@@ -6,7 +6,7 @@ public class Whip extends CondimentDecorator {
   }
 
   public String getDescription() {
-    return beverage.getDescription() + ", Whip";
+    return String.format("%s, Whip", beverage.getDescription());
   }
 
   public double cost() {
