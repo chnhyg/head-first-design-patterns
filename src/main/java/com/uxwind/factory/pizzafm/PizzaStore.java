@@ -1,0 +1,15 @@
+package com.uxwind.factory.pizzafm;
+
+public abstract class PizzaStore {
+  protected abstract Pizza createPizza(Pizza.Type type);
+
+  public Pizza orderPizza(Pizza.Type type) {
+    Pizza pizza = createPizza(type);
+    System.out.println("--- Making a " + pizza.getName() + " ---");
+    pizza.prepare();
+    pizza.bake();
+    pizza.cut();
+    pizza.box();
+    return pizza;
+  }
+}
