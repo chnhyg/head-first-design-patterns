@@ -15,6 +15,10 @@ public abstract class Pizza {
   protected String sauce;
   protected ArrayList<String> toppings = new ArrayList<>();
 
+  public void setName(String name) {
+    this.name = name;
+  }
+
   public String getName() {
     return name;
   }
@@ -42,13 +46,13 @@ public abstract class Pizza {
   }
 
   public String toString() {
-    StringBuilder display = new StringBuilder();
-    display.append("---- ").append(name).append(" ----\n");
-    display.append(dough).append("\n");
-    display.append(sauce).append("\n");
+    StringBuilder result = new StringBuilder();
+    result.append("---- ").append(name).append(" ----\n");
+    result.append(dough).append("\n");
+    result.append(sauce).append("\n");
     for (String topping : toppings) {
-      display.append(topping).append("\n");
+      result.append(topping).append("\n");
     }
-    return display.toString();
+    return result.toString();
   }
 }
