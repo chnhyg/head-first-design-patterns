@@ -4,8 +4,6 @@ public abstract class Duck {
   protected FlyBehavior flyBehavior;
   protected QuackBehavior quackBehavior;
 
-  protected Duck() {}
-
   public void setFlyBehavior(FlyBehavior flyBehavior) {
     this.flyBehavior = flyBehavior;
   }
