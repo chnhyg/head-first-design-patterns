@@ -1,4 +1,4 @@
-package com.uxwind.strategy;
+package com.uxwind.strategy.ducks;
 
 public class Main {
   public static void main(String[] args) {

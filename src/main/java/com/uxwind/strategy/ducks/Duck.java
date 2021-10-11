@@ -1,4 +1,4 @@
-package com.uxwind.strategy;
+package com.uxwind.strategy.ducks;
 
 public abstract class Duck {
   protected FlyBehavior flyBehavior;

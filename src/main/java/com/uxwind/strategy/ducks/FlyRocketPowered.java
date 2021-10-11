@@ -1,4 +1,4 @@
-package com.uxwind.strategy;
+package com.uxwind.strategy.ducks;
 
 public class FlyRocketPowered implements FlyBehavior {
   public void fly() {
