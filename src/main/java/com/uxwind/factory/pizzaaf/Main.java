@@ -6,9 +6,9 @@ public class Main {
     PizzaStore chicagoPizzaStore = new ChicagoPizzaStore();
 
     Pizza pizza = newYorkPizzaStore.orderPizza(Pizza.Type.CHEESE);
-    System.out.println("Kitty ordered a " + pizza.getName() + ".\n");
+    System.out.println("Hello Kitty ordered a " + pizza.getName() + ".\n");
 
     pizza = chicagoPizzaStore.orderPizza(Pizza.Type.CHEESE);
-    System.out.println("Melody ordered a " + pizza.getName() + ".\n");
+    System.out.println("My Melody ordered a " + pizza.getName() + ".\n");
   }
 }
