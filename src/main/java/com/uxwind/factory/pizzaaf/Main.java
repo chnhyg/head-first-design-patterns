@@ -5,10 +5,12 @@ public class Main {
     PizzaStore newYorkPizzaStore = new NewYorkPizzaStore();
     PizzaStore chicagoPizzaStore = new ChicagoPizzaStore();
 
-    Pizza pizza = newYorkPizzaStore.orderPizza(Pizza.Type.CHEESE);
-    System.out.println("Hello Kitty ordered a " + pizza.getName() + ".\n");
+    Pizza newYorkPizza = newYorkPizzaStore.orderPizza(Pizza.Type.CHEESE);
+    System.out.println("Hello Kitty ordered a " + newYorkPizza.getName() + ".");
+    System.out.println();
 
-    pizza = chicagoPizzaStore.orderPizza(Pizza.Type.CHEESE);
-    System.out.println("My Melody ordered a " + pizza.getName() + ".\n");
+    Pizza chicagoPizza = chicagoPizzaStore.orderPizza(Pizza.Type.CHEESE);
+    System.out.println("My Melody ordered a " + chicagoPizza.getName() + ".");
+    System.out.println();
   }
 }

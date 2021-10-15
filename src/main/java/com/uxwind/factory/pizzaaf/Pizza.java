@@ -41,7 +41,7 @@ public abstract class Pizza {
 
   public String toString() {
     StringBuilder result = new StringBuilder();
-    result.append("---- ").append(name).append(" ----\n");
+    result.append("---- ").append(name).append(" ----").append("\n");
     if (dough != null) {
       result.append(dough).append("\n");
     }

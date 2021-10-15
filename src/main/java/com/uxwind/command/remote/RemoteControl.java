@@ -30,7 +30,7 @@ public class RemoteControl {
 
   public String toString() {
     StringBuilder result = new StringBuilder();
-    result.append("\n------ Remote Control -------\n");
+    result.append("\n").append("------ Remote Control -------").append("\n");
     for (int i = 0; i < onCommands.length; i++) {
       result
           .append("[slot ")
