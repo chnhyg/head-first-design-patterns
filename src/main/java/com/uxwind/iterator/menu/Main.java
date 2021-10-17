@@ -1,4 +1,4 @@
-package com.uxwind.iterator.dinermerger;
+package com.uxwind.iterator.menu;
 
 public class Main {
   public static void main(String[] args) {

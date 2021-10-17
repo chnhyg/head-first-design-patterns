@@ -1,4 +1,4 @@
-package com.uxwind.iterator.dinermerger;
+package com.uxwind.iterator.menu;
 
 import java.util.ArrayList;
 import java.util.Iterator;
